@@ -51,7 +51,7 @@ public class Books {
         if(i>=0 && i<autors.length) {
         return autors[i];
     }else {
-           throw new IllegalArgumentException("Поля авторов не должны быть пустыми!");  
+           throw new IllegalArgumentException("Поля авторов не должны быть пустыми");  
         }
     }
     
@@ -59,7 +59,7 @@ public class Books {
         if(name != null && ! name.equals("")) {  
         this.name = name;
     } else {
-           throw new IllegalArgumentException("Название книги не должно быть пустым!");
+           throw new IllegalArgumentException("Название книги не должно быть пустым");
         }
     }
 
@@ -67,14 +67,14 @@ public class Books {
         if(publish != null) {  
         this.publish = publish;
     } else {
-           throw new IllegalArgumentException("Название издательства не должно быть пустым!");
+           throw new IllegalArgumentException("Название издательства не должно быть пустым");
         }
     }
     public void setYear(int year) {
         if(year > 0) {
             this.year = year;
         } else {
-            throw new IllegalArgumentException("Год издания должен быть строго больше нуля.");
+            throw new IllegalArgumentException("Год издания должен быть строго больше нуля");
         }
     }
     
@@ -82,7 +82,7 @@ public class Books {
         if(autors != null) {  
         this.autors = autors;
     } else {
-           throw new IllegalArgumentException("Поле автора не должно быть пустым!");
+           throw new IllegalArgumentException("Поле автора не должно быть пустым");
         }
     }
     
@@ -90,7 +90,7 @@ public class Books {
         if(autor != null && ! autor.equals("")) {  
         this.autor = autor;
     } else {
-           throw new IllegalArgumentException("Поле автора не должно быть пустым!");
+           throw new IllegalArgumentException("Поле автора не должно быть пустым");
         }
     }
     
