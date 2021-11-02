@@ -100,7 +100,7 @@ public class Books {
             System.out.println("Название книги: " + name + "; Автор: " + autor + " ; Издательство: " + getPublish().getNamePublish() + "," + getPublish(). getCity() + "; Год издания: " + year);
         }
         else if(getAutors() != null && getAutors().length > 0) {
-            System.out.println("Название книги: " + name + "; Авторы: " + Arrays.toString(getAutors()) + " ; Издательство: " + getPublish().getNamePublish() + "," + getPublish(). getCity() + "; Год издания: " + year);
+            System.out.println("Название книги: " + name + "; Автор: " + Arrays.toString(getAutors()) + " ; Издательство: " + getPublish().getNamePublish() + "," + getPublish(). getCity() + "; Год издания: " + year);
         }
         else  {
             System.out.println("Название книги: " + name + ";  Издательство: " + getPublish().getNamePublish() + "," + getPublish(). getCity() + "; Год издания: " + year);
